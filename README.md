@@ -19,6 +19,24 @@ The goal is to combine:
 
 The result should be a reusable vault scaffold for private life, work, projects, hobbies, finance, research, and other personal or professional domains.
 
+## 🔥 What This Is Really For
+
+This framework is not only about keeping AI workflows portable.
+
+It is meant to help build a real personal assistant inside Obsidian: one that can reduce mental load, save time, support difficult tasks, and automate multi-step workflows that would otherwise stay undone or consume too much energy.
+
+The goal is not just better note-taking with AI.
+The goal is practical assistance in real life.
+
+That includes things like:
+- helping with private topics that are hard to organize
+- reducing repetitive admin work
+- turning complex workflows into structured, reusable automations
+- supporting research, writing, explanation, and decision-making
+- making it easier to start or finish tasks that feel overwhelming
+
+This should become a system that genuinely takes work off your shoulders.
+
 ## 💡 Core Principles
 
 - **AI-agnostic:** no single assistant should own the context
@@ -37,6 +55,35 @@ Most AI workflows break when:
 - rules live in memory instead of in the repository
 
 This framework addresses that by storing the operating model directly in the vault.
+
+## 🧩 What You Can Build With It
+
+With the right skills, templates, and integrations, this framework can support workflows such as:
+
+- reading and triaging emails for a specific topic
+- extracting and explaining content from PDF attachments
+- drafting and eventually sending suitable replies
+- running structured research across trustworthy sources
+- turning research into summaries, presentations, and decision-ready notes
+- using OCR, PDF readers, speech-to-text, text-to-speech, Excalidraw, Signal, or custom MCP-connected tools
+- automating repeated multi-step processes through reusable skills
+
+The point is not to hard-code one assistant.
+The point is to create a durable system for building many useful assistants and workflows on top of the same vault foundation.
+
+## 🔁 Example Workflows
+
+### Email + document understanding
+Read emails related to a private topic, open PDF attachments, extract the relevant information, explain the contents in plain language, draft a suitable reply, and send it after approval.
+
+### Research to presentation
+Run research on a topic using at least 10 trustworthy sources, evaluate the results, turn them into a presentation draft, and add fitting Excalidraw sketches.
+
+### Support for difficult life admin
+Take emotionally difficult, cognitively heavy, or time-consuming topics and turn them into structured, reviewable workflows with clear context, next steps, and reusable logic.
+
+### Tool-connected workflows
+Combine MCP-connected tools, local files, structured templates, and reusable skills into end-to-end automations that would otherwise require manual coordination across many steps.
 
 ## 🗂️ Structure
 
@@ -75,6 +122,18 @@ The framework uses layered context:
 5. Templates provide repeatable structure.
 
 This lets different AI tools continue work with less reliance on hidden session state.
+
+## 🔌 Extensible By Design
+
+The framework is designed to grow through:
+
+- reusable skills for recurring workflows
+- MCP-connected tools for external capabilities
+- local context files for domain-specific boundaries
+- templates for predictable structure
+- user configuration for language, tone, and safety posture
+
+That means you can start with a simple vault setup and gradually evolve it into a much more capable assistant system without rebuilding everything around one vendor or one session model.
 
 ## 🌍 Language Model
 
@@ -119,6 +178,14 @@ This project aims for safer defaults, not guaranteed safety.
 - Keep public framework files separate from private runtime data
 
 You remain responsible for how you use the framework and any AI output produced with it.
+
+## 🤝 A Real Assistant, Not Just A Chat
+
+The long-term idea is to create an assistant that can genuinely help with life, work, and everything in between.
+
+Obsidian provides the structure and interface.
+AI provides assistance, reasoning, and automation.
+This framework connects both into a durable system that can keep getting better over time.
 
 ## 🛣️ Roadmap
 
