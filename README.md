@@ -159,8 +159,17 @@ Current V1 stays intentionally focused on the core framework and does not includ
 - `AGENTS.md`
 - `CLAUDE.md`
 - `.ai/governance/Index.md`
+- `Getting-Started.md`
+- `Migration-Guide.md`
+- `Safety-and-Backups.md`
 
 These entry files intentionally stay minimal and point to the central governance model.
+
+## 🧭 Installation Paths
+
+- New vault: start with [[Getting-Started]]
+- Existing vault: use [[Migration-Guide]]
+- Sensitive or high-risk content: read [[Safety-and-Backups]] first
 
 ## 🛡️ Safety And Responsibility
 
