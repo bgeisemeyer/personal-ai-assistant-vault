@@ -17,10 +17,7 @@
 - Review local tool permissions before connecting external systems.
 
 ## Out of Scope for V1
-- Built-in email automation
-- Built-in calendar automation
-- Tool-specific runtime launchers
-- Secret management implementations
+- Advanced integrations and local runtime implementations
 
 ## Reporting
 - If you discover a security issue in the public framework, disclose it responsibly through the repository's issue or security process once published.

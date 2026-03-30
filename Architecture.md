@@ -24,5 +24,4 @@ Define a vault framework that can be continued by different AI tools without dep
 
 ## V1 Boundaries
 - No runtime-specific launcher layer.
-- No built-in email or calendar automation.
 - No personal data or example data in the framework scaffold.

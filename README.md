@@ -8,7 +8,7 @@
 
 Instead of storing critical context inside one chat session, this framework keeps rules, working context, progress, templates, and reusable workflows in files.
 
-That makes it easier to continue work across tools like OpenCode, Claude Code, and future AI environments without losing the thread.
+That makes it easier to continue work across different AI tools and future AI environments without losing the thread.
 
 ## 🎯 Vision
 
@@ -152,13 +152,7 @@ Included in V1:
 - research template set
 - generic skills for research, vault maintenance, PDF processing, and Excalidraw
 
-Explicitly excluded from V1:
-- OpenCode-specific runtime files
-- email automation
-- calendar automation
-- example content
-- personal data
-- secrets and local integration setup
+Current V1 stays intentionally focused on the core framework and does not include private runtime data or secret material.
 
 ## 🚀 Entry Points
 

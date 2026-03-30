@@ -15,5 +15,4 @@
 ## Not in Scope by Default
 - Personal data
 - Secrets
-- Tool-specific local runtime files
 - Narrowly personal workflows without clear general value

@@ -17,4 +17,4 @@ The framework should begin with an initial setup conversation that creates a use
 6. Future integration preferences
 
 ## V1 Note
-Email and calendar integrations are excluded from V1, but the onboarding model should stay extensible enough to add them later.
+The onboarding model should stay extensible enough to support future integrations later.

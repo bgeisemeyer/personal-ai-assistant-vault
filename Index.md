@@ -15,7 +15,6 @@
 - Tone: precise, calm, practical
 - Audience: maintainers and future users of the framework
 - Allowed tools/MCP servers: vault files, documentation work, generic skill design
-- Not to use in V1: OpenCode-specific runtime files, email automation, calendar automation, secrets, personal data
 - Privacy and boundaries: no personal runtime data in the public framework; no guarantee of safe operation; sensitive domains must be treated conservatively
 - Ask before: irreversible structure changes outside this project, publishing decisions that affect legal or licensing posture
 - Default assumptions: public repo first, examples later, configuration via `User-Profile.md`

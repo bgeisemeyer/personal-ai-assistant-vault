@@ -22,5 +22,5 @@
 ## V1 Scope
 - Generic framework only
 - No examples yet
-- No tool-specific runtime files
+- No local runtime implementation files
 - Empty template areas should contain placeholder files so the structure remains visible in version control.

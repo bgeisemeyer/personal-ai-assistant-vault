@@ -12,4 +12,4 @@
 - Example structures
 - Generic assistant templates
 - Optional tool integration layer
-- Optional communication and calendar capabilities
+- Additional integration capabilities
