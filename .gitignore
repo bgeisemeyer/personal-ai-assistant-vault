@@ -1,0 +1,12 @@
+.obsidian/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local editor and OS artifacts
+*.swp
+*.swo
+
+# Temporary exports and generated files
+*.log
+*.tmp
