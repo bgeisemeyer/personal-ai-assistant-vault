@@ -4,7 +4,7 @@
 The framework should begin with an initial setup conversation that creates a user profile instead of relying on chat memory.
 
 ## First-Run Output
-- A completed `User-Profile.md`
+- A completed `.ai/runtime/User-Profile.md`
 - Clear local language and safety defaults
 - Explicit boundaries for future integrations
 

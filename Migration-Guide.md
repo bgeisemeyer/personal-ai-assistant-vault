@@ -22,7 +22,7 @@ This means:
 1. `Installed`
    The framework files are present in the vault.
 2. `Configured`
-   `User-Profile.md` and governance defaults are in place.
+   `.ai/runtime/User-Profile.md` and governance defaults are in place.
 3. `Assessed`
    The selected vault area has been scanned and documented.
 4. `Migration Planned`
@@ -44,7 +44,7 @@ This means:
 - Do not start with a broad structural rewrite.
 
 ### 3. Configure the framework
-- Create `User-Profile.md`.
+- Create `.ai/runtime/User-Profile.md`.
 - Set language, safety posture, and structure preferences.
 
 ### 4. Choose the scan scope

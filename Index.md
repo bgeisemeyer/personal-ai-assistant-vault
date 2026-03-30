@@ -3,7 +3,7 @@
 ## Notes on Maintenance
 - This project uses the local governance in [[.ai/governance/Index|.ai/governance/Index.md]].
 - It defines a public framework for an AI-managed Obsidian vault.
-- Project language defaults to English. User language should later be configured through `User-Profile.md`.
+- Project language defaults to English. User language should later be configured through `.ai/runtime/User-Profile.md`.
 
 ## Goal
 - Build an open-source Obsidian vault framework for AI-assisted personal knowledge work.
@@ -17,7 +17,7 @@
 - Allowed tools/MCP servers: vault files, documentation work, generic skill design
 - Privacy and boundaries: no personal runtime data in the public framework; no guarantee of safe operation; sensitive domains must be treated conservatively
 - Ask before: irreversible structure changes outside this project, publishing decisions that affect legal or licensing posture
-- Default assumptions: public repo first, examples later, configuration via `User-Profile.md`
+- Default assumptions: public repo first, examples later, configuration via `.ai/runtime/User-Profile.md`
 - External paths: none
 
 ## Current Status

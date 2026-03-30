@@ -21,7 +21,7 @@
 - The framework assumes conservative safety posture unless a user or local context explicitly narrows it.
 
 ## User Configuration
-- User language, tone, and notation are configurable through `User-Profile.md`.
+- User language, tone, and notation are configurable through `.ai/runtime/User-Profile.md`.
 - User defaults apply across topics unless a local `Index.md` overrides them.
 - The framework should prefer explicit configuration over inferred preferences.
 

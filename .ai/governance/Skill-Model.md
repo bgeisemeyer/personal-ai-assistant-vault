@@ -16,7 +16,7 @@
 - Put reusable task workflows in skills.
 - Put copyable working structures in templates.
 - Put topic-specific rules and assumptions in the local `Index.md`.
-- Put durable user-wide defaults in `User-Profile.md`.
+- Put durable user-wide defaults in `.ai/runtime/User-Profile.md`.
 
 ## When To Create A Skill
 Create a new skill when:
@@ -40,13 +40,13 @@ Do not create a skill when:
 ## Skill Application Rules
 - Skills must follow `Safety.md`.
 - Skills must follow the nearest local `Index.md`.
-- Skills must respect `User-Profile.md` defaults unless local context overrides them.
+- Skills must respect `.ai/runtime/User-Profile.md` defaults unless local context overrides them.
 - Skills should not assume tool-specific integrations unless explicitly documented.
 
 ## Priority in Conflicts
 1. `Safety.md`
 2. Explicit user instruction
 3. Local context in `Index.md`
-4. `User-Profile.md`
+4. `.ai/runtime/User-Profile.md`
 5. Matching skill in `.ai/skills/`
 6. `Global.md`

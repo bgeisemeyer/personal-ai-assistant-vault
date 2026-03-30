@@ -1,12 +1,12 @@
 # Initial Setup
 
 ## Goal
-Create a `User-Profile.md` that captures durable user preferences for the framework.
+Create a `.ai/runtime/User-Profile.md` that captures durable user preferences for the framework.
 
 ## Flow
 1. Explain that the framework stores durable preferences in files instead of relying on session memory.
 2. Ask the setup questions in a stable order.
-3. Turn the answers into a filled `User-Profile.md`.
+3. Turn the answers into a filled `.ai/runtime/User-Profile.md`.
 4. Confirm which settings are global defaults and which can still be overridden locally.
 
 ## Question Blocks
@@ -34,7 +34,7 @@ Create a `User-Profile.md` that captures durable user preferences for the framew
 - Require local `Index.md` files?
 - Require local logs?
 
-## Mapping To `User-Profile.md`
+## Mapping To `.ai/runtime/User-Profile.md`
 - Language answers fill `## Language`.
 - Domain and usage answers fill `## Usage Scope`.
 - Confirmation and approval answers fill `## Safety Settings`.
@@ -42,5 +42,5 @@ Create a `User-Profile.md` that captures durable user preferences for the framew
 - Structure answers fill `## Structure Preferences`.
 
 ## Output
-- Fill a `User-Profile.md` instance from `.ai/templates/configuration/User-Profile.md`.
+- Fill a `.ai/runtime/User-Profile.md` instance from `.ai/templates/configuration/User-Profile.md`.
 - Treat the result as durable defaults, not as a complete replacement for local context.

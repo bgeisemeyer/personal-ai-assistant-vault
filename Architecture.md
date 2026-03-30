@@ -7,7 +7,7 @@ Define a vault framework that can be continued by different AI tools without dep
 - Global framework rules live in `.ai/governance/`.
 - Reusable workflows live in `.ai/skills/`.
 - Supporting references live in `.ai/references/`.
-- Initial configuration lives in `.ai/onboarding/` and `User-Profile.md`.
+- Initial configuration lives in `.ai/onboarding/` and `.ai/runtime/User-Profile.md`.
 - Local working context remains in the relevant topic or project `Index.md`.
 
 ## Continuity Model
@@ -19,7 +19,7 @@ Define a vault framework that can be continued by different AI tools without dep
 
 ## Language Model
 - Framework default: English.
-- User language: configured via `User-Profile.md`.
+- User language: configured via `.ai/runtime/User-Profile.md`.
 - Local overrides: allowed in the nearest `Index.md`.
 
 ## V1 Boundaries

@@ -21,7 +21,7 @@ You can use this framework in two main ways:
 - `.ai/governance/Index.md`
 
 ### 4. Run the initial setup
-- Create a `User-Profile.md` from `.ai/templates/configuration/User-Profile.md`.
+- Create `.ai/runtime/User-Profile.md` from `.ai/templates/configuration/User-Profile.md`.
 - Set language, structure preferences, and safety defaults.
 
 ### 5. Start with one topic
@@ -40,7 +40,7 @@ You can use this framework in two main ways:
 - Do not restructure your whole vault immediately.
 
 ### 3. Run the initial setup
-- Create a `User-Profile.md`.
+- Create `.ai/runtime/User-Profile.md`.
 - Set language, structure preferences, and safety defaults.
 
 ### 4. Choose a migration scope
@@ -61,7 +61,7 @@ You can use this framework in two main ways:
 
 You have reached a good first state when:
 - the framework is installed
-- `User-Profile.md` exists
+- `.ai/runtime/User-Profile.md` exists
 - one pilot topic uses local context and templates
 - the vault can be continued by an AI through files instead of chat memory
 

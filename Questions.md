@@ -7,5 +7,5 @@
 
 ## Answered
 - [x] Question: Should the public framework default to English?
-  - Answer: Yes. English is the framework default, with future user language configured through `User-Profile.md`.
+  - Answer: Yes. English is the framework default, with future user language configured through `.ai/runtime/User-Profile.md`.
   - Evidence: [[Log#30.03.2026 09:04]]

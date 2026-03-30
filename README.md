@@ -93,6 +93,7 @@ Combine MCP-connected tools, local files, structured templates, and reusable ski
   skills/
   references/
   onboarding/
+  runtime/
   templates/
 ```
 
@@ -106,7 +107,10 @@ Reusable AI workflows such as research, vault maintenance, PDF processing, and d
 Supporting conventions and reference material used by governance or skills.
 
 ### `.ai/onboarding/`
-The initial setup flow that turns user answers into a durable `User-Profile.md`.
+The initial setup flow that turns user answers into a durable `.ai/runtime/User-Profile.md`.
+
+### `.ai/runtime/`
+Runtime AI configuration such as the live user profile used during real vault operation.
 
 ### `.ai/templates/`
 Reusable structures for topics, projects, assistants, and configuration files.
@@ -117,7 +121,7 @@ The framework uses layered context:
 
 1. `Safety.md` defines hard safety boundaries.
 2. Local `Index.md` files define topic-specific context.
-3. `User-Profile.md` stores stable user defaults.
+3. `.ai/runtime/User-Profile.md` stores stable user defaults.
 4. Skills define reusable workflows.
 5. Templates provide repeatable structure.
 
@@ -138,7 +142,7 @@ That means you can start with a simple vault setup and gradually evolve it into 
 ## 🌍 Language Model
 
 - Repository default: English
-- User language: configured through `User-Profile.md`
+- User language: configured through `.ai/runtime/User-Profile.md`
 - Local exceptions: allowed in the nearest `Index.md`
 
 That means the framework can stay internationally readable while still adapting to each user.
@@ -148,6 +152,7 @@ That means the framework can stay internationally readable while still adapting 
 Included in V1:
 - governance
 - onboarding
+- runtime model
 - user-profile template
 - research template set
 - generic skills for research, vault maintenance, PDF processing, and Excalidraw
@@ -162,6 +167,10 @@ Current V1 stays intentionally focused on the core framework and does not includ
 - `Getting-Started.md`
 - `Migration-Guide.md`
 - `Safety-and-Backups.md`
+- `Runtime-Model.md`
+- `Setup-Flow.md`
+- `Migration-Mode.md`
+- `Versioning.md`
 
 These entry files intentionally stay minimal and point to the central governance model.
 
