@@ -45,6 +45,6 @@ If two sources conflict, the higher rule wins. Lower layers should refine, not c
 6. Record ongoing work in local working files instead of relying on hidden session memory.
 
 ## Files
-- [[Projekte/Personal-AI-Assistant-Vault/.ai/governance/Global|Global.md]]
-- [[Projekte/Personal-AI-Assistant-Vault/.ai/governance/Safety|Safety.md]]
-- [[Projekte/Personal-AI-Assistant-Vault/.ai/governance/Skill-Model|Skill-Model.md]]
+- [[.ai/governance/Global|Global.md]]
+- [[.ai/governance/Safety|Safety.md]]
+- [[.ai/governance/Skill-Model|Skill-Model.md]]

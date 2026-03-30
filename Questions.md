@@ -8,7 +8,7 @@
 ## Answered
 - [x] Question: Should the public framework default to English?
   - Answer: Yes. English is the framework default, with future user language configured through `User-Profile.md`.
-  - Evidence: [[Projekte/Personal-AI-Assistant-Vault/Log#30.03.2026 09:04]]
+  - Evidence: [[Log#30.03.2026 09:04]]
 - [x] Question: Should OpenCode-specific runtime files be part of V1?
   - Answer: No. V1 intentionally excludes OpenCode-specific runtime files.
-  - Evidence: [[Projekte/Personal-AI-Assistant-Vault/Log#30.03.2026 09:04]]
+  - Evidence: [[Log#30.03.2026 09:04]]

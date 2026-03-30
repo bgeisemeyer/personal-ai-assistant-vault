@@ -2,16 +2,19 @@
 
 ## Internal Sources
 - [[AGENTS.md]]
-- [[KI-Regelwerk/Index]]
-- [[KI-Regelwerk/Global]]
-- [[KI-Regelwerk/Sicherheit]]
-- [[KI-Regelwerk/Skill-Modell]]
-- [[.ki/referenzen/vault-konventionen]]
-- [[.ki/skills/recherche/SKILL]]
-- [[.ki/skills/vault-pflege/SKILL]]
-- [[.ki/skills/pdf-verarbeitung/SKILL]]
-- [[.ki/skills/excalidraw-skill/SKILL]]
+- [[.ai/governance/Index]]
+- [[.ai/governance/Global]]
+- [[.ai/governance/Safety]]
+- [[.ai/governance/Skill-Model]]
+- [[.ai/references/vault-conventions]]
+- [[.ai/skills/research/SKILL]]
+- [[.ai/skills/vault-maintenance/SKILL]]
+- [[.ai/skills/pdf-processing/SKILL]]
+- [[.ai/skills/excalidraw/SKILL]]
+
+## Background
+- This public framework was developed from earlier private iterations and then generalized for open-source use.
 
 ## Used In
-- [[Projekte/Personal-AI-Assistant-Vault/Log#30.03.2026 09:04]]
-- [[Projekte/Personal-AI-Assistant-Vault/Insights]]
+- [[Log#30.03.2026 09:04]]
+- [[Insights]]

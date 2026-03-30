@@ -12,7 +12,7 @@
 ## Decisions
 - Decision: Place governance, templates, onboarding, references, and skills under `.ai/`.
   - Rationale: These files primarily serve AI operation and do not need to remain visible in the normal Obsidian sidebar.
-  - Evidence: [[Projekte/Personal-AI-Assistant-Vault/Log#30.03.2026 09:04]]
+  - Evidence: [[Log#30.03.2026 09:04]]
 - Decision: Exclude email, CalDAV, ACA, training-specific content, and OpenCode runtime files from V1.
   - Rationale: V1 should stay generic, portable, and publication-ready.
-  - Evidence: [[Projekte/Personal-AI-Assistant-Vault/Log#30.03.2026 09:04]]
+  - Evidence: [[Log#30.03.2026 09:04]]

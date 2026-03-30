@@ -1,7 +1,7 @@
 # Personal AI Assistant Vault
 
 ## Notes on Maintenance
-- This project uses the local governance in [[Projekte/Personal-AI-Assistant-Vault/.ai/governance/Index|.ai/governance/Index.md]].
+- This project uses the local governance in [[.ai/governance/Index|.ai/governance/Index.md]].
 - It defines a public framework for an AI-managed Obsidian vault.
 - Project language defaults to English. User language should later be configured through `User-Profile.md`.
 
@@ -26,16 +26,16 @@
 - Last updated: 30.03.2026 09:04
 
 ## Linked Working Files
-- [[Projekte/Personal-AI-Assistant-Vault/Log|Log]]
-- [[Projekte/Personal-AI-Assistant-Vault/Questions|Questions]]
-- [[Projekte/Personal-AI-Assistant-Vault/Insights|Insights]]
-- [[Projekte/Personal-AI-Assistant-Vault/Sources|Sources]]
-- [[Projekte/Personal-AI-Assistant-Vault/Vision|Vision]]
-- [[Projekte/Personal-AI-Assistant-Vault/Architecture|Architecture]]
-- [[Projekte/Personal-AI-Assistant-Vault/Onboarding|Onboarding]]
-- [[Projekte/Personal-AI-Assistant-Vault/Safety-and-Liability|Safety and Liability]]
-- [[Projekte/Personal-AI-Assistant-Vault/Repository-Blueprint|Repository Blueprint]]
-- [[Projekte/Personal-AI-Assistant-Vault/Roadmap|Roadmap]]
+- [[Log|Log]]
+- [[Questions|Questions]]
+- [[Insights|Insights]]
+- [[Sources|Sources]]
+- [[Vision|Vision]]
+- [[Architecture|Architecture]]
+- [[Onboarding|Onboarding]]
+- [[Safety-and-Liability|Safety and Liability]]
+- [[Repository-Blueprint|Repository Blueprint]]
+- [[Roadmap|Roadmap]]
 
 ## Next Steps
 - Refine framework language and onboarding defaults.
