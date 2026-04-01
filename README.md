@@ -112,6 +112,9 @@ The initial setup flow that turns user answers into a durable `.ai/runtime/User-
 ### `.ai/runtime/`
 Runtime AI configuration such as the live user profile used during real vault operation.
 
+### `.ai/docs/`
+Public framework documentation that should stay available without cluttering the vault root.
+
 ### `.ai/templates/`
 Reusable structures for topics, projects, assistants, and configuration files.
 
@@ -164,21 +167,22 @@ Current V1 stays intentionally focused on the core framework and does not includ
 - `AGENTS.md`
 - `CLAUDE.md`
 - `.ai/governance/Index.md`
-- `Getting-Started.md`
-- `Migration-Guide.md`
-- `Safety-and-Backups.md`
-- `Runtime-Model.md`
-- `Setup-Flow.md`
-- `Migration-Mode.md`
-- `Versioning.md`
+- `.ai/docs/Getting-Started.md`
+- `.ai/docs/Migration-Guide.md`
+- `.ai/docs/Safety-and-Backups.md`
+- `.ai/docs/Runtime-Model.md`
+- `.ai/docs/Setup-Flow.md`
+- `.ai/docs/Migration-Mode.md`
+- `.ai/docs/Versioning.md`
+- `.ai/docs/Architecture.md`
 
 These entry files intentionally stay minimal and point to the central governance model.
 
 ## 🧭 Installation Paths
 
-- New vault: start with [[Getting-Started]]
-- Existing vault: use [[Migration-Guide]]
-- Sensitive or high-risk content: read [[Safety-and-Backups]] first
+- New vault: start with `.ai/docs/Getting-Started.md`
+- Existing vault: use `.ai/docs/Migration-Guide.md`
+- Sensitive or high-risk content: read `.ai/docs/Safety-and-Backups.md` first
 
 ## 🛡️ Safety And Responsibility
 
