@@ -22,6 +22,7 @@ This signals that the project is usable, but core structures may still evolve be
 - changing the role of `Migration/`
 - changing key governance precedence rules
 - renaming core template files in a way that affects users
+- introducing official shared-vault or multi-user support into a previously single-user baseline
 
 ## What Counts As MINOR
 - new guides
@@ -44,6 +45,11 @@ This signals that the project is usable, but core structures may still evolve be
 ## Stability Guidance
 - `0.x`: faster iteration allowed, but document breaking changes clearly
 - `1.x`: treat core structure and runtime conventions as stable by default
+
+## Multi-User Release Impact
+- The current framework baseline is single-user.
+- Official support for shared or multi-user vaults is treated as a major breaking change.
+- The transition from single-user-only assumptions to an official shared-vault model should therefore increment the major version.
 
 ## Related Documents
 - [[Runtime-Model]]
