@@ -89,6 +89,7 @@ Combine MCP-connected tools, local files, structured templates, and reusable ski
 
 ```text
 .ai/
+  commands/
   governance/
   skills/
   references/
@@ -97,11 +98,16 @@ Combine MCP-connected tools, local files, structured templates, and reusable ski
   templates/
 ```
 
+Optional tool-specific wrappers can live alongside the framework, for example under `.opencode/commands/`.
+
+### `.ai/commands/`
+Canonical command content for reusable session starts and other framework commands.
+
 ### `.ai/governance/`
 Core rules, safety posture, and the model for how the framework works.
 
 ### `.ai/skills/`
-Reusable AI workflows such as research, vault maintenance, PDF processing, and diagram work.
+Reusable AI workflows such as research, vault maintenance, PDF processing, diagram work, and command development.
 
 ### `.ai/references/`
 Supporting conventions and reference material used by governance or skills.
@@ -153,12 +159,13 @@ That means the framework can stay internationally readable while still adapting 
 ## 🚧 Current V1 Scope
 
 Included in V1:
+- canonical command model
 - governance
 - onboarding
 - runtime model
 - user-profile template
 - research template set
-- generic skills for research, vault maintenance, PDF processing, and Excalidraw
+- generic skills for research, vault maintenance, PDF processing, Excalidraw, and command development
 
 Current V1 stays intentionally focused on the core framework and does not include private runtime data or secret material.
 
