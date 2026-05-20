@@ -67,6 +67,7 @@ With the right skills, templates, and integrations, this framework can support w
 - turning research into summaries, presentations, and decision-ready notes
 - using OCR, PDF readers, speech-to-text, text-to-speech, Excalidraw, Signal, or custom MCP-connected tools
 - automating repeated multi-step processes through reusable skills
+- handing off work between sessions through structured `Session-Export` and `Session-Import`
 
 The point is not to hard-code one assistant.
 The point is to create a durable system for building many useful assistants and workflows on top of the same vault foundation.
@@ -160,12 +161,13 @@ That means the framework can stay internationally readable while still adapting 
 
 Included in V1:
 - canonical command model
+- structured session handover model
 - governance
 - onboarding
 - runtime model
 - user-profile template
 - research template set
-- generic skills for research, vault maintenance, PDF processing, Excalidraw, and command development
+- generic skills for research, vault maintenance, PDF processing, Excalidraw, command development, and session handover
 
 Current V1 stays intentionally focused on the core framework and does not include private runtime data or secret material.
 

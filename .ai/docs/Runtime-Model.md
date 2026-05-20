@@ -22,6 +22,7 @@ Runtime files are created in the actual user vault during setup or later operati
 
 They include:
 - `.ai/runtime/User-Profile.md`
+- `.ai/runtime/session-exports/` for structured handover files between sessions
 - `Migration/` when an existing vault is being assessed or migrated
 - topic-specific `Index.md`, `Log.md`, and other working files created from templates
 
